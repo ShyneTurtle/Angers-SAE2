@@ -1,0 +1,18 @@
+environments:
+  default:
+    debugTool:
+      name: "jtagice3"
+
+    target:
+      name: "ATmega32"
+      physicalInterface: "jtag"
+      variantName: "ATmega32L-8PU"
+
+    debugServer:
+      name: "avr-gdb-rsp"
+      ipAddress: "127.0.0.1"
+      port: 1442
+debugLoggingEnabled: true
+
+insight:
+  enabled: true
